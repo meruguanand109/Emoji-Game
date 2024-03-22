@@ -1,0 +1,33 @@
+/* Write your code here. */
+.emoji-card-container {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff33;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9796f0;
+}
+.emoji {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.emoji-btn {
+  border: 0px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-card-container {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+  }
+  .emoji {
+    width: 100px;
+    height: 100px;
+  }
+}

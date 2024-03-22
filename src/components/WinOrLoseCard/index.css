@@ -1,0 +1,85 @@
+/* Write your code here. */
+.play-btn {
+  background-color: #ffce27;
+  width: 140px;
+  height: 45px;
+  border: 0px;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  color: #3d3d3d;
+  cursor: pointer;
+}
+.re-score {
+  color: #6a59ff;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+}
+.result-container {
+  border: 5px solid #ffffff33;
+  color: white;
+  display: flex;
+  width: 800px;
+  align-items: center;
+  height: 800px;
+  border-radius: 40px;
+}
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+.result-h {
+  font-size: 50px;
+  font-weight: bold;
+}
+.result-p {
+  font-size: 45px;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .result-card {
+    order: -1;
+  }
+}
+.result-img {
+  width: 45%;
+  height: 65%;
+}
+
+@media screen and (max-width: 767px) {
+  .result-container {
+    flex-direction: column;
+    width: 250px;
+    height: 380px;
+    padding-top: 10px;
+  }
+  .play-btn {
+    font-size: 14px;
+    width: 90px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .result-img {
+    width: 100px;
+    height: 180px;
+  }
+  .re-score {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .result-h {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .result-p {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .result-card {
+    width: 200px;
+  }
+}

@@ -1,0 +1,22 @@
+/* Write your code here. */
+.emoji-game-container {
+  min-height: 100vh;
+  padding: 0px;
+  background-image: linear-gradient(to right bottom, #6a59ff, #9796f0);
+}
+
+.game-container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ul {
+  padding-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .game-container {
+    padding: 15px;
+  }
+}
